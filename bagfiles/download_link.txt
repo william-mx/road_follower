@@ -1,0 +1,6 @@
+# Install the Google Drive downloader
+pip install -q gdown
+
+# Download the dataset folder from Google Drive
+gdown --folder https://drive.google.com/drive/folders/1x9NG-2t0yj7AhP7JldbiHV3QG8orATrc
+
