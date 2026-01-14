@@ -7,7 +7,7 @@ This repository contains the **accompanying code** for the Medium article [**“
 This project is **threefold**, as illustrated in the diagram:
 
 * On the **left**, the **Medium article** presents the conceptual workflow and explains why this approach improves productivity for robotics beginners and experts alike.
-* In the **middle**, the **interactive Colab notebook** serves as our playground for exploring sensor data, visualizing results, and iteratively developing code in a reproducible and sharable environment.
+* In the **middle**, the **interactive Colab notebook** serves as our playground for exploring sensor data, visualizing results, and iteratively developing code in a reproducible and sharable environment *(see `notebooks/Simple_Road_Follower.ipynb` or open it directly in Colab via [Link to notebook](https://colab.research.google.com/drive/1KwrhN0TqdYhSRQw6LYqLe_w9ZbHh9pr-?usp=sharing)).*
 * On the **right**, the **final ROS node** lives in this GitHub repository. Once the logic is refined in Colab, you can simply copy it into your local VS Code setup and convert it into a proper ROS package that runs on your rover — avoiding most of the trial-and-error debugging directly on the vehicle.
 
 
