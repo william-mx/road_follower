@@ -1,6 +1,6 @@
 # road_follower
 
-This repository contains the **accompanying code** for the Medium article [**“A Modern Workflow for ROS Development Using Google Colab and Foxglove”**](https://medium.com/@engelwilliam97/a-modern-workflow-for-ros-development-using-google-colab-and-foxglove-ee4885c89902). The article presents a workflow that moves ROS development into Google Colab, where real robot data and Foxglove visualizations can be explored and tested without dealing with Linux, ROS, drivers, and hardware every time you change a line of code.
+This repository contains the **accompanying code** for the Medium article [**“A Modern Workflow for ROS Development Using Google Colab and Foxglove”**](https://medium.com/@engelwilliam97/). The article presents a workflow that moves ROS development into Google Colab, where real robot data and Foxglove visualizations can be explored and tested without dealing with Linux, ROS, drivers, and hardware every time you change a line of code.
 
 ---
 
@@ -19,7 +19,7 @@ This workflow lets you move smoothly from **research → prototyping → deploym
 
 The figure below illustrates the complete workflow: robot data is recorded and inspected in Foxglove, streamed into Google Colab via **Foxflow**, and turned into a working pipeline. Once validated, the code is committed to GitHub as a ROS package and finally pulled into VS Code, where it runs on the robot as a ROS 2 node.
 
-<img src="docs/workflow_jpeg.jpg" alt="Workflow" width="600">
+<img src="docs/workflow.jpg" alt="Workflow" width="600">
 
 
 
