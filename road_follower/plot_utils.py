@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from pathlib import Path
 
-def plot_mse(predicted_angles, true_angles, pkg_path):
+def plot_mae(predicted_angles, true_angles, pkg_path):
 
     pred = np.array(predicted_angles)
     gt = np.array(true_angles)
