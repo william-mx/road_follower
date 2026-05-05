@@ -27,6 +27,7 @@ setup(
     entry_points={
         "console_scripts": [
             "road_follower = road_follower.road_follower:main",
+            "road_follower_yolo = road_follower.road_follower_yolo:main",
         ],
     },
 )
